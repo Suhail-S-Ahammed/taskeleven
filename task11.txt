@@ -1,0 +1,18 @@
+Step1 : Go to the Google cloud Console
+Step2 : Then Computer Engine API
+        >Enable
+Step3 : From the navigation menu -> Compute engine ->VM instances
+Step4 : Create an instance (Provide necessary details) 
+        >Name 
+        >Region
+        >Zone
+        >Machine Configuration->General purpose
+        >Machine type
+        >Container(Optional)
+        >Identity and API access->Computer engine Default account
+        >Access scopes
+        >Firewall
+        >Automation(Can add a startup script that'll run when the instance boots up,we don't need that now)
+        >Availability policies 
+        >Create
+Then our VM will be created , It'll be displayed along with name, Internal IP and External IP
